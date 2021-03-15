@@ -2,9 +2,9 @@ let mysql = require('mysql');
 
 //Ensuring the connection to AWS RDS 
 var connection = mysql.createConnection({
-    host: "gforces.cv5s4hqjdy2c.us-east-2.rds.amazonaws.com",
+    host: "",
     user: "admin",
-    password: "gforcespassword",
+    password: "",
     database: "main",
 });
 
